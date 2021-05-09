@@ -1,0 +1,21 @@
+{
+  "dataset_id": "bc_position",
+  "dataset_types": [
+    {
+      "type": "security",
+      "sources": [
+        {"source_id": "A", "client_id": "A1"},
+        {"source_id": "B", "client_id": "B1"}
+      ],
+      "bcml_collection_name": "securityMongoCollection"
+    },
+    {
+      "type": "cash",
+      "sources": [
+        {"source_id": "C", "client_id": "C1"},
+        {"source_id": "D", "client_id": "D1"}
+      ],
+      "bcml_collection_name": "cashMongoCollection"
+    }
+  ]
+}
